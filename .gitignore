@@ -1,3 +1,5 @@
+# 코드 이외에 설정 파일이나 라이브러리는 올릴 필요가 없으니, .gitignore을 추가해서 업로드를 막는다.
+
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
