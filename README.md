@@ -70,23 +70,23 @@ while i < 10:
 
 - 튜플 : 리스트와 유사하지만 한번 초기화하면 변경이 불가능하다
 
-###리스트 요소 추가
+### 리스트 요소 추가
     list.append(element) : 리스트 끝에 "요소 하나"를 추가한다
     list.extend(list) : 리스트끼리 연결을 해준다.
     insert(index, element) : 원하는 인덱스에 요소를 넣는다.
 
-###리스트 요소 삭제
+### 리스트 요소 삭제
     .pop(index) : 원하는 인덱스 요소 삭제 후 값 반환 / 안쓸경우 맨 마지막 값을 삭제
     .remove(element) : 특정 값을 찾아서 삭제
 
-###리스트 메서드 들
+### 리스트 메서드 들
     .index(element) # 해당 요소의 인덱스 값을 구하기
     .count(element) # 해당 요소 개수 구하기
     .reverse() # 순서뒤집기
     .sort() # 정렬 / 새로운 리스트를 만들때는 sorted()
     .min(), max(), .sum()
 
-###리스트 슬라이싱
+### 리스트 슬라이싱
     list[start:end] # start <= X < end
 
 
